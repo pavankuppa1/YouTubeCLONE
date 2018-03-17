@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#ffffff">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/vid_image"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/i1"/>
+
+        <TextView
+            android:id="@+id/vid_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avengers Infinity War Trailer"
+            android:textColor="#000000"
+            android:maxLines="1"
+            android:drawableLeft="@drawable/ic_folder"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/vid_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avengers.1B views"
+            android:maxLines="1"
+            android:layout_marginLeft="25dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/vid_text3"
+            android:layout_height="wrap_content"
+            android:text="4 months ago"
+            android:layout_marginLeft="25dp"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
